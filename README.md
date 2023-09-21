@@ -1,4 +1,4 @@
-# Parallellizing the convex hull algorithm
+# Parallelizing the convex hull algorithm
 
 ## Introduction
 This is a way to modify the algorithm to find the convex hull of a set of points in a 2d graph. This is a recursive divide and conquer algorithm. This was a part of an assignment in the subject _IN3030 - Effective Parallel Programming_. I implemented both a sequential version and a parallel version and compared the speedups for different hull sizes.
