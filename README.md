@@ -38,8 +38,8 @@ measurements secƟon.
 5. Add points which are directly inbetween _p3_ and _p2_, in order of closest to _p2_. I made a modified version of quick sort.
 
 
-## Quick summary of implementatino
-*More detailed in report*
+## Quick summary of implementation
+*More details in report*
 
 ### Precode
 I implemented the whole algorithm and test programs by myself. However I used precode to generate the 2d points and print the results to file. The only thing I did not implement was the small class: 'NPunkter17'
