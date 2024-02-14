@@ -38,7 +38,7 @@ measurements section.
 2. Find the point _p3_ outside the line (away from the center of the graph area), furthest away from the line.
 3. Do recursive steps between _p3_ and _p2_ (In new recursive call _p3_ is now _p1_).
 4. Add _p3_ to hull
-5. Add points which are directly inbetween _p3_ and _p2_, in order of closest to _p2_. I made a modified version of quick sort.
+5. Add points which are directly inbetween _p3_ and _p2_, in order of closest to _p2_. I made a modified version of quick sort, which is found in the function `quicksort()` in the `IntList` class. 
 
 
 ## Quick summary of implementation
