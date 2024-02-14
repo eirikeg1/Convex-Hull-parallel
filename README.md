@@ -9,14 +9,14 @@ More information and testing results, including speedups with parallelization, c
 
 To run the program, you use the command: 
 ```
-java Oblig4 *[flags] <n> [seed]
+java Oblig4 <flags> <n> [seed]
 ```
 * The flags are optional, to include them separate them with spaces between before <n>. A list of the flags: 
     - `-w`: writes the results t file using the precode. 
     - `-d`: draws a graphical presentation of the results. One for every run. (not recommended when running test program). Uses the precode. 
 * `n`: the number of points. If n is set to -1 the test program is run, this is explained in the 
-measurements secƟon. 
-* `seed`: determines the seed used for generaƟng the points. 
+measurements section. 
+* `seed`: determines the seed used for generating the points. 
 
 ## Simple desciption of the algorithm
 *After running this algorithm you get a list containing all the points in the convex hull of the datapoints. Because the recursive steps happens before adding the points, the points wil be ordered starting from the one furthest to the right, in a counterclockwise order. This had to be taken into consideration when parallellizing*
