@@ -18,7 +18,7 @@ java Oblig4 <flags> <n> [seed]
 measurements section. 
 * `seed`: determines the seed used for generating the points. 
 
-![Image of drawing where n=800 and seed=1](images/800_points_seed_1.png|width=80)
+![](images/800_points_seed_1.png|width=80)
 
 ## Simple desciption of the algorithm
 *After running this algorithm you get a list containing all the points in the convex hull of the datapoints. Because the recursive steps happens before adding the points, the points wil be ordered starting from the one furthest to the right, in a counterclockwise order. This had to be taken into consideration when parallellizing*
